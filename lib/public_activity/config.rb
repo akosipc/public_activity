@@ -9,7 +9,7 @@ module PublicActivity
     def initialize
       @enabled    = true
       @table_name = "activities"
-      @orm        = :active_record
+      @orm        = :mongoid
     end
 
     def orm=(orm)
